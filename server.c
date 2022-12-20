@@ -152,12 +152,6 @@ int main(){
                     }
 
                 }
-
-                /*if (sendto(mysocket, (const char *) &msgStruct, sizeof(struct Struct), 0,
-                           (const struct sockaddr *) &clientaddr, sizeof(clientaddr)) !=
-                    sizeof(struct Struct)) {
-                    printf("invio messaggio 3 non riuscito\n\n");
-                }*/
             }
         }
 
